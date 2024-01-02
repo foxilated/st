@@ -164,10 +164,10 @@ float alphaUnfocused = 0.6;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#161616",
+	"#111115",
 	"#FF9580",
+	"#fcec0c",
 	"#8AFF80",
-	"#EDED7A",
 	"#9882FC",
 	"#FF80BF",
 	"#84FFF3",
@@ -176,20 +176,20 @@ static const char *colorname[] = {
 	/* 8 bright colors */
 	"#999999",
 	"#FF9580",
+	"#fcec0c",
 	"#8AFF80",
-	"#EDED7A",
 	"#5c5cff",
 	"#FF80BF",
 	"#84FFF3",
-	"#F8F8F2",
+	"#FFFFFF",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#F8F8F2", /* 256 -> cursor */
+	"#FFFFFF", /* 256 -> cursor */
 	"#404040", /* 257 -> rev cursor*/
-	"#161616", /* 258 -> bg */
-	"#F8F8F2", /* 259 -> fg */
+	"#111115", /* 258 -> bg */
+	"#FFFFFF", /* 259 -> fg */
 };
 
 
